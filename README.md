@@ -1,0 +1,2 @@
+# pwrshl
+Useful Powershell scripts.
