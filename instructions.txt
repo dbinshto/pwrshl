@@ -1,0 +1,90 @@
+
+instructions
+
+———————
+
+contains 3 files:
+
+- CheckForInvalidNames.ps1 = the powershell script that checks for invalid folder and file names. It generates an report in the folder that is the start folder where search begins.
+
+- CheckForInvalidNames.xml = contains configuration info : where NameRules.xml is located plus smtp settings if you want to email the report
+
+- NameRules.xml = contains the list of invalid characters to look for and match against folders and files. Perusing the contents of this file should give you an idea of what rules are applied.
+
+Place the contents of zip file into:
+
+C:\Workspace\powershell\CheckForInvalidNames
+
+You can change the location where the CheckForInvalidNames.ps1 script file (within the script) looks for the configuration files.
+
+A text file report is created in the start folder where search was started.
+
+TO STOP SCRIPT WHEN RUNNING YOU CAN PRESS CTRL_Q.
+
+Recommended use:
+
+1) start a powershell session as an administrator and cd to c:\workspace\powershell\checkforinvalidnames\
+
+PS C:\workspace\powershell\checkforinvalidnames>
+
+2) Then invoke the script into memory by typing: . .\CheckForINvalidNames.ps1
+
+That's period space period forward slash and name of script
+
+PS C:\workspace\powershell\checkforinvalidnames>. .\CheckForINvalidNames.ps1
+
+It just loads the functions into memory.
+
+3) To invoke the main function type: CheckForInvalidNames "c:\"
+
+PS C:\workspace\powershell\checkforinvalidnames> CheckForInvalidNames "c:\"
+
+"c:\" = is the folder to start search in, you can replace it with any path you want like: CheckForInvalidNames "c:\workspace\"
+
+4) Other switches you can use:
+
+CheckForInvalidNames "c:\" $False = will stop searching when first invalid name encountered.
+
+The function CheckForInvalidNames has the following parameters:
+
+$startfolder = 1st parameter is a string that is the starting path to begin search
+
+$CompleteSearch  = (optional)  2nd param is boolean $True or $False ($True is default), if 4False will stop when 1st invalid name found
+
+$emailyn = (optional) 3rd param is boolean ($True or $False; $False is default), will email if $True BUT I didn't put in value sin config file. So update config file first to use email function.
+
+$DebugMode = (optional) 4th param is boolean and included because I originally want to turn off the screen output but didn't finish this task.
+ function CheckForInvalidNames
+
+{
+
+
+
+    [CmdletBinding()]
+
+ 	Param
+
+ 	(
+
+  [Parameter(Mandatory=$True,Position=1)]
+
+  [string]$startfolder,
+
+    [Parameter(Mandatory=$False,Position=2)]
+
+  [bool]$CompleteSearch = $True,
+
+    [Parameter(Mandatory=$False,Position=3)]
+
+  [bool]$emailyn = $False,
+
+[Parameter(Mandatory=$False,Position=4)]
+
+  [bool]$DebugMode = $True
+
+ 	) 
+
+Let me know if this helps or if there are any issues/questions.
+
+Good Luck!
+
