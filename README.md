@@ -1,2 +1,1 @@
-# pwrshl
-Useful Powershell scripts.
+Useful Powershell scripts. 

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharePointNameRules>
+
+ <!-- invalid characters -->
+ <Rule id="1" name="\" value="\" applyto="Both" version="Both" pos="ALL" category="invalid characters" description=""/>
+ <Rule id="2" name="/" value="/" applyto="Both" version="Both" pos="ALL" category="invalid characters" description=""/>
+ <Rule id="3" name=":" value=":" applyto="Both" version="Both" pos="ALL" category="invalid characters" description=""/>
+ <Rule id="4" name="*" value="*" applyto="Both" version="Both" pos="ALL" category="invalid characters" description=""/>
+ <Rule id="5" name="?" value="?" applyto="Both" version="Both" pos="ALL" category="invalid characters" description=""/>
+ <Rule id="6" name="&quot;" value="&quot;" applyto="Both" version="Both" pos="ALL" category="invalid characters" description=""/>
+ <Rule id="7" name="&lt;" value="&lt;" applyto="Both" version="Both" pos="ALL" category="invalid characters" description=""/>
+ <Rule id="8" name="&gt;" value="&gt;" applyto="Both" version="Both" pos="ALL" category="invalid characters" description=""/>
+ <Rule id="9" name="|" value="|" applyto="Both" version="Both" pos="ALL" category="invalid characters" description=""/>
+ <Rule id="10" name="#" value="#" applyto="Both" version="Both" pos="ALL" category="invalid characters" description=""/>
+ <Rule id="11" name="%" value="%" applyto="Both" version="Both" pos="ALL" category="invalid characters" description=""/>
+ <Rule id="12" name="~" value="~" applyto="Both" version="SharePoint Online" pos="1" category="invalid characters" description=""/>
+ <Rule id="13" name="~" value="~" applyto="File" version="SharePoint Server 2013" pos="ALL" category="invalid characters" description=""/>
+ <Rule id="14" name="." value="." applyto="File" version="SharePoint Server 2013" pos="1" category="invalid characters" description=""/>
+ <Rule id="15" name="{" value="{" applyto="File" version="SharePoint Server 2013" pos="ALL" category="invalid characters" description=""/>
+ <Rule id="16" name="}" value="}" applyto="File" version="SharePoint Server 2013" pos="ALL" category="invalid characters" description=""/>
+ <Rule id="17" name="&amp;" value="&amp;" applyto="File" version="SharePoint Server 2013" pos="ALL" category="invalid characters" description=""/>
+
+ <!-- invalid names; whole or part -->
+ <Rule id="18" name="forms" value="forms" applyto="Folder" version="Both" pos="Whole" category="invalid names" description=""/>
+ <Rule id="19" name="_vti_" value="_vti_" applyto="Folder" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="20" name="_files:" value="_files:" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="21" name="_Dateien" value="_Dateien" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="22" name="_fichiers" value="_fichiers" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="23" name="_bestanden" value="_bestanden" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="24" name="_file" value="_file" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="25" name="_archivos" value="_archivos" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="26" name="_tiedostot" value="_tiedostot" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="27" name="_pliki" value="_pliki" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="28" name="_soubory" value="_soubory" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="29" name="_elemei" value="_elemei" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="30" name="_ficheiros" value="_ficheiros" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="31" name="_arquivos" value="_arquivos" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="32" name="_dosyalar" value="_dosyalar" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="33" name="_datoteke" value="_datoteke" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="34" name="_fitxers" value="_fitxers" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="35" name="_failid" value="_failid" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="36" name="_fails" value="_fails" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="37" name="_bylos" value="_bylos" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="38" name="_fajlovi" value="_fajlovi" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="39" name="_fitxategiak" value="_fitxategiak" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+ <Rule id="40" name="_private" value="_private" applyto="Both" version="Both" pos="ALL" category="invalid names" description=""/>
+
+ <!-- invalid file extensions -->
+ <Rule id="41" name=".tmp" value=".tmp" applyto="Extension" version="Both" pos="Whole" category="invalid file extensions" description=""/>
+ <Rule id="42" name=".ds_store" value=".ds_store" applyto="Extension" version="Both" pos="Whole" category="invalid file extensions" description=""/>
+
+ <!-- invaid file extensions for SharePoint Online -->
+ <Rule id="43" name=".ashx" value=".ashx" applyto="Extension" version="SharePoint Online" pos="Whole" category="invalid file extensions for SharePoint Online" description="ASP.NET Web handler file. Web handlers are software modules that handle raw HTTP requests received by ASP.NET."/>
+ <Rule id="44" name=".asmx" value=".asmx" applyto="Extension" version="SharePoint Online" pos="Whole" category="invalid file extensions for SharePoint Online" description="ASP.NET Web Services source file"/>
+ <Rule id="45" name=".json" value=".json" applyto="Extension" version="SharePoint Online" pos="Whole" category="invalid file extensions for SharePoint Online" description="JavaScript Object Notation file"/>
+ <Rule id="46" name=".soap" value=".soap" applyto="Extension" version="SharePoint Online" pos="Whole" category="invalid file extensions for SharePoint Online" description="Simple Object Access Protocol file"/>
+ <Rule id="47" name=".svc" value=".svc" applyto="Extension" version="SharePoint Online" pos="Whole" category="invalid file extensions for SharePoint Online" description="Windows Communication Foundation (WCF) service file"/>
+ <Rule id="48" name=".xamlx" value=".xamlx" applyto="Extension" version="SharePoint Online" pos="Whole" category="invalid file extensions for SharePoint Online" description="Visual Studio Workflow service file"/>
+
+ <!-- invalid file extensions for SharePoint Foundation and SharePoint Server (SharePoint Server 2013) -->
+ <Rule id="49" name=".ade" value=".ade" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Access project extension"/>
+ <Rule id="50" name=".adp" value=".adp" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Access project"/>
+ <Rule id="51" name=".asa" value=".asa" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="ASP declarations file"/>
+ <Rule id="52" name=".ashx" value=".ashx" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="ASP.NET Web handler file. Web handlers are software modules that handle raw HTTP requests received by ASP.NET."/>
+ <Rule id="53" name=".asmx" value=".asmx" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="ASP.NET Web Services source file"/>
+ <Rule id="54" name=".asp" value=".asp" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Active Server Pages"/>
+ <Rule id="55" name=".bas" value=".bas" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Visual Basic class module"/>
+ <Rule id="56" name=".bat" value=".bat" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Batch file"/>
+ <Rule id="57" name=".cdx" value=".cdx" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Compound index"/>
+ <Rule id="58" name=".cer" value=".cer" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Certificate file"/>
+ <Rule id="59" name=".chm" value=".chm" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Compiled HTML Help file"/>
+ <Rule id="60" name=".class" value=".class" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Java class file"/>
+ <Rule id="61" name=".cmd" value=".cmd" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Windows NT command script"/>
+ <Rule id="62" name=".com" value=".com" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft MS-DOS program"/>
+ <Rule id="63" name=".config" value=".config" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Configuration file"/>
+ <Rule id="64" name=".cnt" value=".cnt" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Help Contents file"/>
+ <Rule id="65" name=".cpl" value=".cpl" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Control Panel extension"/>
+ <Rule id="66" name=".crt" value=".crt" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Security certificate"/>
+ <Rule id="67" name=".csh" value=".csh" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Script file"/>
+ <Rule id="68" name=".der" value=".der" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="DER Certificate file"/>
+ <Rule id="69" name=".dll" value=".dll" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Windows dynamic-link library"/>
+ <Rule id="70" name=".exe" value=".exe" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Executable file"/>
+ <Rule id="71" name=".fxp" value=".fxp" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Visual FoxPro compiled program"/>
+ <Rule id="72" name=".gadget" value=".gadget" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Windows Gadget"/>
+ <Rule id="73" name=".grp" value=".grp" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="SmarterMail group file"/>
+ <Rule id="74" name=".hlp" value=".hlp" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Help file"/>
+ <Rule id="75" name=".hpj" value=".hpj" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Hemera Photo Objects Image File"/>
+ <Rule id="76" name=".hta" value=".hta" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="HTML program"/>
+ <Rule id="77" name=".htr" value=".htr" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Script file"/>
+ <Rule id="78" name=".htw" value=".htw" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="HTML document"/>
+ <Rule id="79" name=".ida" value=".ida" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Internet Information Services file"/>
+ <Rule id="80" name=".idc" value=".idc" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Internet database connector file"/>
+ <Rule id="81" name=".idq" value=".idq" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Internet data query file"/>
+ <Rule id="82" name=".ins" value=".ins" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Internet Naming Service"/>
+ <Rule id="83" name=".isp" value=".isp" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Internet Communication settings"/>
+ <Rule id="84" name=".its" value=".its" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Internet Document Set file"/>
+ <Rule id="85" name=".jse" value=".jse" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="JScript Encoded script file"/>
+ <Rule id="86" name=".json" value=".json" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="JavaScript Object Notation file"/>
+ <Rule id="87" name=".ksh" value=".ksh" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Korn Shell script file"/>
+ <Rule id="88" name=".lnk" value=".lnk" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Shortcut"/>
+ <Rule id="89" name=".mad" value=".mad" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Shortcut"/>
+ <Rule id="90" name=".maf" value=".maf" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Shortcut"/>
+ <Rule id="91" name=".mag" value=".mag" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Shortcut"/>
+ <Rule id="92" name=".mam" value=".mam" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Shortcut"/>
+ <Rule id="93" name=".maq" value=".maq" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Shortcut"/>
+ <Rule id="94" name=".mar" value=".mar" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Shortcut"/>
+ <Rule id="95" name=".mas" value=".mas" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Access stored procedure"/>
+ <Rule id="96" name=".mat" value=".mat" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Shortcut"/>
+ <Rule id="97" name=".mau" value=".mau" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Shortcut"/>
+ <Rule id="98" name=".mav" value=".mav" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Shortcut"/>
+ <Rule id="99" name=".maw" value=".maw" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Shortcut"/>
+ <Rule id="100" name=".mcf" value=".mcf" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Multimedia Container Format"/>
+ <Rule id="101" name=".mda" value=".mda" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Access add-in program"/>
+ <Rule id="102" name=".mdb" value=".mdb" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Access program"/>
+ <Rule id="103" name=".mde" value=".mde" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Access MDE database"/>
+ <Rule id="104" name=".mdt" value=".mdt" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Access data file"/>
+ <Rule id="105" name=".mdw" value=".mdw" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Access workgroup"/>
+ <Rule id="106" name=".mdz" value=".mdz" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Access wizard program"/>
+ <Rule id="107" name=".ms-one-stub" value=".ms-one-stub" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft OneNote stub"/>
+ <Rule id="108" name=".msc" value=".msc" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Common Console document"/>
+ <Rule id="109" name=".msh" value=".msh" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Agent script helper"/>
+ <Rule id="110" name=".msh1" value=".msh1" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Agent script helper"/>
+ <Rule id="111" name=".msh1xml" value=".msh1xml" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Agent script helper"/>
+ <Rule id="112" name=".msh2" value=".msh2" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Agent script helper"/>
+ <Rule id="113" name=".msh2xml" value=".msh2xml" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Agent script helper"/>
+ <Rule id="114" name=".mshxml" value=".mshxml" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Agent script helper"/>
+ <Rule id="115" name=".msi" value=".msi" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Windows Installer package"/>
+ <Rule id="116" name=".msp" value=".msp" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Windows Installer update package file"/>
+ <Rule id="117" name=".mst" value=".mst" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Visual Test source files"/>
+ <Rule id="118" name=".ops" value=".ops" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Office profile settings file"/>
+ <Rule id="119" name=".pcd" value=".pcd" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Photo CD image or Microsoft Visual Test compiled script"/>
+ <Rule id="120" name=".pif" value=".pif" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Shortcut to MS-DOS program"/>
+ <Rule id="121" name=".pl" value=".pl" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Perl script"/>
+ <Rule id="122" name=".prf" value=".prf" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="System file"/>
+ <Rule id="123" name=".prg" value=".prg" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Program source file"/>
+ <Rule id="124" name=".printer" value=".printer" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Printer file"/>
+ <Rule id="125" name=".ps1" value=".ps1" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Windows PowerShell Cmdlet file"/>
+ <Rule id="125" name=".ps1xml" value=".ps1xml" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Windows PowerShell Display configuration file"/>
+ <Rule id="126" name=".ps2" value=".ps2" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Windows PowerShell Cmdlet file"/>
+ <Rule id="127" name=".ps2xml" value=".ps2xml" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Windows PowerShell Display configuration file"/>
+ <Rule id="128" name=".psc1" value=".psc1" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Windows PowerShell Console file"/>
+ <Rule id="129" name=".psc2" value=".psc2" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Windows PowerShell Console file"/>
+ <Rule id="130" name=".pst" value=".pst" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Outlook personal folder file"/>
+ <Rule id="131" name=".reg" value=".reg" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Registration entries"/>
+ <Rule id="132" name=".rem" value=".rem" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="ACT! database maintenance file"/>
+ <Rule id="133" name=".scf" value=".scf" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Windows Explorer command file"/>
+ <Rule id="133" name=".scr" value=".scr" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Screen saver"/>
+ <Rule id="134" name=".sct" value=".sct" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Script file"/>
+ <Rule id="135" name=".shb" value=".shb" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Windows shortcut"/>
+ <Rule id="136" name=".shs" value=".shs" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Shell Scrap object"/>
+ <Rule id="137" name=".shtm" value=".shtm" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="HTML file that contains server-side directives"/>
+ <Rule id="138" name=".shtml" value=".shtml" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="HTML file that contains server-side directives"/>
+ <Rule id="139" name=".soap" value=".soap" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Simple Object Access Protocol file"/>
+ <Rule id="140" name=".stm" value=".stm" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="HTML file that contains server-side directives"/>
+ <Rule id="141" name=".svc" value=".svc" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Windows Communication Foundation (WCF) service file"/>
+ <Rule id="142" name=".url" value=".url" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Uniform Resource Locator (Internet shortcut)"/>
+ <Rule id="143" name=".vb" value=".vb" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Microsoft Visual Basic Scripting Edition (VBScript) file"/>
+ <Rule id="144" name=".vbe" value=".vbe" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="VBScript Encoded Script file"/>
+ <Rule id="145" name=".vbs" value=".vbs" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="VBScript file"/>
+ <Rule id="146" name=".vsix" value=".vsix" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Visual Studio Extension"/>
+ <Rule id="147" name=".ws" value=".ws" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Windows Script file"/>
+ <Rule id="148" name=".wsc" value=".wsc" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Windows Script Component"/>
+ <Rule id="149" name=".wsf" value=".wsf" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Windows Script file"/>
+ <Rule id="150" name=".wsh" value=".wsh" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Windows Script Host settings file"/>
+ <Rule id="151" name=".xamlx" value=".xamlx" applyto="Extension" version="SharePoint Server 2013" pos="Whole" category="invalid file extensions for SharePoint Online" description="Visual Studio Workflow service file"/>
+
+ <!-- invalid specific files -->
+ <Rule id="152" name="desktop.ini" value="desktop.ini" applyto="File" version="Both" pos="Whole"/>
+ <Rule id="153" name="thumbs.db" value="thumbs.db" applyto="File" version="Both" pos="Whole"/>
+ <Rule id="154" name="ehthumbs.db" value="ehthumbs.db" applyto="File" version="Both" pos="Whole"/>
+
+</SharePointNameRules>
+
+
+
+ 
+ 
+
+

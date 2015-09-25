@@ -1,0 +1,10 @@
+<ConfigSettings>
+	<RuleXMLDIR>C:\Workspace\powershell\CheckForInvalidNames\</RuleXMLDIR>
+	<RuleXMLFileName>NameRules.xml</RuleXMLFileName>
+	<emailFrom></emailFrom>
+	<emailTo>DamoneB@1199.org</emailTo>
+	<smtpServer></smtpServer>
+	<smtpDomain></smtpDomain>
+	<smtpUID></smtpUID>
+	<smtpPWD></smtpPWD>
+</ConfigSettings>
